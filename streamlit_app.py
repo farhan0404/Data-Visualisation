@@ -11,9 +11,7 @@
 #pip install geopandas
 
 
-# In[2]:
 
-pip install -r requirements.txt
 
 import streamlit as st
 import geopandas as gpd
