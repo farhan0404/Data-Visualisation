@@ -26,7 +26,7 @@ import pandas as pd
 
 
 
-Data = pd.read_csv(r"C:\Msc data Science\Data Visualisation\Datasets (Coursework)-20231209\1. WHO-COVID-19-global-table-data.csv")
+Data = pd.read_csv(r"1. WHO-COVID-19-global-table-data.csv")
 Data_1 = pd.read_csv(r"2. vaccination-data.csv")
 
 
