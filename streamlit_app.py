@@ -84,7 +84,7 @@ selected_metric = st.sidebar.selectbox('World Vaccination Status', ['PERSONS_FUL
 fig, ax = plt.subplots(1, 1, figsize=(15, 10))
 world.boundary.plot(ax=ax)
 world.plot(column=selected_metric, cmap='YlOrRd', linewidth=0.8, ax=ax, edgecolor='0.8', legend=True)
-plt.title(f'World Vaccination Heat Map - {selected_metric}')
+plt.title(f'World Vaccination Heat Map - {selected_metric}',y=1.05)
 plt.axis('off')
 
 # Display the map in Streamlit
